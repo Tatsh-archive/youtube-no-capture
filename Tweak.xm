@@ -14,8 +14,7 @@
 @synthesize supportedVersions=_supportedVersions;
 
 - (id)init {
-    self.supportedVersions = [NSArray arrayWithObjects:
-                                                       @"2.3.0.11210",
+    self.supportedVersions = [NSArray arrayWithObjects:@"2.3.0.11210",
                                                        nil];
     return self;
 }
