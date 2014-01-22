@@ -15,6 +15,7 @@
 
 - (id)init {
     self.supportedVersions = [NSArray arrayWithObjects:@"2.3.0.11210",
+                                                       @"2.3.1.11214",
                                                        nil];
     return self;
 }
